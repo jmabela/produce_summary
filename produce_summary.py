@@ -8,7 +8,7 @@ def going_through_file (day, doc_name):
         # melon = words[0]
         # count = words[1]
         # amount = words[2]
-        melon, count, amount = words[0, 1, 2]
+        melon, count, amount = words(0, 1, 2)
 
         print(f"Delivered {count} {melon}s for total of ${amount}")
     the_file.close()
